@@ -1,0 +1,114 @@
+/* Code hasan Mulai dari sini ya! */
+
+body{
+   font-family: 'Quicksand', sans-serif;
+}
+
+*{
+box-sizing: border-box;
+}
+
+main {
+	background-color: ;
+
+}
+
+.bungkus1 {
+	background-color: pink;
+	padding-bottom: 20px;
+	border-radius: 5px; 
+	box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.fleks-isi {
+	display: flex;
+	color: white;
+}
+
+.fleks-isi > div {
+	width: 33.33%;
+	text-align: center;
+	padding-bottom: 5px;
+
+}
+
+.fleks-isi h3 {
+	background-color: black;
+	display: inline-block;
+	padding: 8px 8px;
+	border-radius: 12px;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+.fleks-isi p {
+	margin: 0 10%;
+
+}
+
+.container	{
+	max-width: 1170px;
+	margin: 0 auto;
+	
+}
+
+.bungkus2 {
+	background-color: #e8edea;
+	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+	padding-bottom: 20px;
+	
+}
+
+form {
+	display: block;
+}
+
+label {
+	font-size: 10px;
+}
+
+input, textarea {
+	font-size: 10px; 
+	color: black;
+	border: 1px solid #dee7ec;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	width: 300px;
+	max-width: 620px;
+}
+
+textarea{
+	width: 620px;
+}
+.fleks1 {
+	margin-left: 10px;
+	margin-top: 0;
+}
+.fleks1 h2 {
+	font-size: 15px;
+	font-weight: normal;
+}
+.standarisian {
+	padding-bottom: 10px;
+}
+.formflex {
+	display: flex;
+}
+
+.satu {
+	padding-left: 20px;
+}
+
+.kirim {
+	background-color: #dee7ec;
+	color: #889eab;
+	width: 120px;
+}
+
+
+
+
+
+
+
+
