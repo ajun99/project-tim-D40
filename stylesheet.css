@@ -238,11 +238,10 @@ img {
    height: 250px;
    border-radius: 50%;
    position: relative;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-    cursor: pointer;
-    border: 5px solid #FF8C00;
-    background: #eeeee6;
-    border-radius: 50%;
+   box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+   cursor: pointer;
+   border: 5px solid #FF8C00;
+   background: #eeeee6;
 }
 
 /*--- CSS untuk Footer---- */
