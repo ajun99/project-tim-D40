@@ -1,65 +1,97 @@
 /* Code hasan dimulai di sini ya! */
 /* Untuk Tablet */
-@media (max-width: 1000px) {
-.fleks-isi {
-	flex-wrap: wrap;
+@media screen and (max-width: 1085px) {
+    .fleks-isi {
+        flex-wrap: wrap;
+    }
+    
+    .fleks-isi > div {
+        width: 50%;
+    }
+    
+    .bukanflex {
+        margin: 10px 0;
+        margin-left: 25%;
+    }
+    .main1-text h1{
+        font-size: 50px;
+    }
+    .main1-text h2{
+        font-size: 30px;
+    }
+    .btn{
+        width:95px;
+        margin-top: 10px;
+    }
+    }
+    
+    /* Untuk Smartphone */
+@media screen and (max-width: 670px) {
+    .atas ul {
+        display: none;
+    }
+    .bars {
+        display: block;
+    }
+    .fleks-isi{
+        flex-direction: column;
+    }
+    .fleks-isi > div {
+        width: 100%
+    }
+    .bukanflex {
+        margin: 0;
+        margin-left: 0;
+    }
+    
+    input, textarea {
+        max-width: 280px;
+        font-size: 10px;
+    }
+    .formflex {
+        flex-direction: column;
+    }
+    .satu {
+        padding-left: 0px;
+    }
+    
+    .fleks1 h2 {
+        text-align: center;
+    }
+    
+    .fleks-isi h3 {
+        font-size: 15px;
+    }
+    
+    .fleks-isi p {
+        font-size: 15px;
+    }
+    .main1-text h1{
+        font-size: 40px;
+    }
+    .main1-text h2{
+        font-size: 25px;
+    }
+    .btn{
+        width:93px;
+        margin-top: 12px;
+    }
+    }
+
+
+
+/* Untuk footer */
+@media screen and (max-width: 1085px) {
+    .footer-items {
+        width: 50%;
+    }
 }
 
-.fleks-isi > div {
-	width: 50%;
+@media screen and (max-width: 600px) {
+    .footer-items {
+        width: 100%;
+    }
 }
 
-.bukanflex {
-	margin: 10px 0;
-	margin-left: 25%;
-}
-
-}
-
-/* Untuk Smartphone */
-@media (max-width: 670px) {
-
-.fleks-isi{
-	flex-direction: column;
-}
-.fleks-isi > div {
-	width: 100%
-}
-
-.bukanflex {
-	margin: 0;
-	margin-left: 0;
-}
-
-input, textarea {
-	max-width: 280px;
-	font-size: 10px;
-}
-.formflex {
-	flex-direction: column;
-}
-.satu {
-	padding-left: 0px;
-}
-
-.fleks1 h2 {
-	text-align: center;
-}
-
-.fleks-isi h3 {
-	font-size: 15px;
-}
-
-.fleks-isi p {
-	font-size: 15px;
-}
-
-
-}
-
-/* Berakhir di sini! */
-
-
-
-
-
+    /* Berakhir di sini! */
+    
