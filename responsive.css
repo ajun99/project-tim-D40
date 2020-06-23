@@ -57,6 +57,18 @@ input, textarea {
 
 }
 
+/* Untuk footer */
+@media screen and (max-width: 1085px) {
+    .footer-items {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-items {
+        width: 100%;
+    }
+}
 /* Berakhir di sini! */
 
 
