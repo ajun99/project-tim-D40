@@ -30,6 +30,9 @@
     .atas ul {
         display: none;
     }
+    .logo {
+    	margin: 2px 0;
+    }
     .bars {
         display: block;
     }
@@ -43,7 +46,9 @@
         margin: 0;
         margin-left: 0;
     }
-    
+    .read {
+    	margin-bottom: 40px;
+    }
     input, textarea {
         max-width: 280px;
         font-size: 10px;
