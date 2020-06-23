@@ -1,61 +1,64 @@
 /* Code hasan dimulai di sini ya! */
 /* Untuk Tablet */
-@media (max-width: 1000px) {
-.fleks-isi {
-	flex-wrap: wrap;
-}
+@media screen and (max-width: 1085px) {
+    .fleks-isi {
+        flex-wrap: wrap;
+    }
+    
+    .fleks-isi > div {
+        width: 50%;
+    }
+    
+    .bukanflex {
+        margin: 10px 0;
+        margin-left: 25%;
+    }
+    
+    
+    }
+    
+    /* Untuk Smartphone */
+@media screen and (max-width: 670px) {
+    
+    .fleks-isi{
+        flex-direction: column;
+    }
+    .fleks-isi > div {
+        width: 100%
+    }
+    
+    .bukanflex {
+        margin: 0;
+        margin-left: 0;
+    }
+    
+    input, textarea {
+        max-width: 280px;
+        font-size: 10px;
+    }
+    .formflex {
+        flex-direction: column;
+    }
+    .satu {
+        padding-left: 0px;
+    }
+    
+    .fleks1 h2 {
+        text-align: center;
+    }
+    
+    .fleks-isi h3 {
+        font-size: 15px;
+    }
+    
+    .fleks-isi p {
+        font-size: 15px;
+    }
+    
+    
+    }
+    
 
-.fleks-isi > div {
-	width: 50%;
-}
-
-.bukanflex {
-	margin: 10px 0;
-	margin-left: 25%;
-}
-
-}
-
-/* Untuk Smartphone */
-@media (max-width: 670px) {
-
-.fleks-isi{
-	flex-direction: column;
-}
-.fleks-isi > div {
-	width: 100%
-}
-
-.bukanflex {
-	margin: 0;
-	margin-left: 0;
-}
-
-input, textarea {
-	max-width: 280px;
-	font-size: 10px;
-}
-.formflex {
-	flex-direction: column;
-}
-.satu {
-	padding-left: 0px;
-}
-
-.fleks1 h2 {
-	text-align: center;
-}
-
-.fleks-isi h3 {
-	font-size: 15px;
-}
-
-.fleks-isi p {
-	font-size: 15px;
-}
-
-
-}
 
 /* Untuk footer */
 @media screen and (max-width: 1085px) {
@@ -69,9 +72,6 @@ input, textarea {
         width: 100%;
     }
 }
-/* Berakhir di sini! */
 
-
-
-
-
+    /* Berakhir di sini! */
+    

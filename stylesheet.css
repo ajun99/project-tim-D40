@@ -1,109 +1,192 @@
+/* Code hani dimulai! */
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.logo {
+  width: 30px;
+  position: relative;
+  top: 10px;
+
+}
+
+.atas {
+  width: 95%;
+  margin: 0 auto;
+}
+.atas a {
+  text-decoration: none;
+  color: white;
+}
+
+.atas li{
+  font-size: 14px;
+  padding: 0 10px;
+  list-style: none;
+  display: inline;
+}
+
+.atas ul {
+  float: right;
+}
+
+.atas a:hover { 
+  color:#ff9800;
+  transition: 0.3s
+}
+.hapus {
+  clear: right;
+  }
+
+/* Code hani berakhir! */
+
 /* Code hasan Mulai dari sini ya! */
 
 body{
-   font-family: 'Quicksand', sans-serif;
+   font-family: sans-serif;
 }
 
 *{
 box-sizing: border-box;
 }
 
-main {
-	background-color: ;
+.main2 {
+    background-color: #00121b;
 
+}
+
+.container  {
+    max-width: 95%;
+    margin: 0 auto;
 }
 
 .bungkus1 {
-	background-color: pink;
-	padding-bottom: 20px;
-	border-radius: 5px; 
-	box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.2);
+    padding: 20px 20px;
+
+}
+
+.buath {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buath h1 {
+    color: white;
+    display: inline-block;
+    font-weight: lighter;
 }
 
 .fleks-isi {
-	display: flex;
-	color: white;
+    display: flex;
+    color: white;
 }
 
 .fleks-isi > div {
-	width: 33.33%;
-	text-align: center;
-	padding-bottom: 5px;
+    width: 33.33%;
+    text-align: center;
+    padding-bottom: 5px;
 
 }
 
-.fleks-isi h3 {
-	background-color: black;
-	display: inline-block;
-	padding: 8px 8px;
-	border-radius: 12px;
-	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
+.fleks-isi h2 {
+    background-color: ;
+    color: #ff9800;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 8px;
+    border-radius: 12px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
 }
 
 
 .fleks-isi p {
-	margin: 0 10%;
+    margin: 0 10%;
+    font-weight: lighter;
+    height: 60px;
 
 }
 
-.container	{
-	max-width: 1170px;
-	margin: 0 auto;
-	
+.read {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid white;
+    color: #ff9800;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+
 }
+
+
+.fleks-isi a:hover {
+    color: #fff;
+    background-color: #ff9800;
+    box-shadow: 0px 8px 5px rgba(255,255,255,0.4); 
+    position: relative;
+    bottom: 5px;
+
+
+}
+
 
 .bungkus2 {
-	background-color: #e8edea;
-	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
-	padding-bottom: 20px;
-	
+    background-color: #e8edea;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+    
 }
 
 form {
-	display: block;
+    display: block;
 }
 
 label {
-	font-size: 10px;
+    font-size: 10px;
 }
 
 input, textarea {
-	font-size: 10px; 
-	color: black;
-	border: 1px solid #dee7ec;
-	padding-bottom: 5px;
-	border-radius: 5px;
-	width: 300px;
-	max-width: 620px;
+    font-size: 10px; 
+    color: black;
+    border: 1px solid #dee7ec;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 620px;
 }
 
 textarea{
-	width: 620px;
+    width: 620px;
 }
 .fleks1 {
-	margin-left: 10px;
-	margin-top: 0;
+    margin-left: 10px;
+    margin-top: 0;
 }
 .fleks1 h2 {
-	font-size: 15px;
-	font-weight: normal;
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .standarisian {
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 .formflex {
-	display: flex;
+    display: flex;
 }
 
 .satu {
-	padding-left: 20px;
+    padding-left: 20px;
 }
 
 .kirim {
-	background-color: #dee7ec;
-	color: #889eab;
-	width: 120px;
+    background-color: #dee7ec;
+    color: #889eab;
+    width: 120px;
 }
+
+
 
 /*--- CSS untuk Footer---- */
 
@@ -129,7 +212,7 @@ textarea{
 }
 
 .inner-footer {
-    width: 95%;
+    width: 80%;
     margin: auto;
     padding: 30px 10px;
     display: flex;
@@ -229,9 +312,3 @@ textarea{
     color: #fff;
     font-size: 12px;
 }
-
-
-
-
-
-
