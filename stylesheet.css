@@ -17,10 +17,10 @@ header:hover {
 }
 
 .logo {
-  font-weight: bolder;
-  color: white ;
-  font-size: 35px;
-  padding: 10px 0;
+  border-radius: 50%;
+  padding: 2px 2px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  border: 4px solid #FF8C00;
   float: left;
 }
 .atas {
@@ -233,7 +233,7 @@ textarea{
 }
 
 
-img {
+.imgmain2 {
    width: 250px;
    height: 250px;
    border-radius: 50%;
@@ -375,16 +375,22 @@ img {
     padding-top: 200px;
     text-align: center;
     background-color: #e8edea;
+    background-image: url(pictures/picture-main/gmbr-05.jpg);
+    background-size: cover;
     padding-bottom: 150px;
 
 }
 .main1-text h1{
     font-size: 60px;
+    color: #FF8C00;
+    text-shadow: 2px 2px 3px white;
 }
 
 .main1-text h2{
     font-size: 35px;
     letter-spacing: 2px;
+    color: #FF8C00;
+    text-shadow: 2px 2px 3px white;
 }
 
 .main1-btn{
