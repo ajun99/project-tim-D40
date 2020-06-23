@@ -312,3 +312,47 @@ textarea{
     color: #fff;
     font-size: 12px;
 }
+
+/* css main1 */
+.main1{
+    padding-top: 15px;
+    text-align: center;
+    background-color: #e8edea;
+
+}
+.main1-text h1{
+    font-size: 60px;
+}
+
+.main1-text h2{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.main1-btn{
+    margin-top:10px;
+}
+.btn{
+    display: inline-block;
+    color: white;
+    border-radius: 2px;
+    padding: 8px 12px;
+    background-color: #ff9800;
+    margin-bottom:10px;
+    border: 1px solid #BF360C;
+    cursor: pointer;
+    box-shadow: 0 3px #BF360C;
+    width: 100px;
+}
+.btn:active{
+    position: relative;
+    top: px;
+    box-shadow: none;
+}
+
+.find{
+    margin-right: 20px;
+}
+.main-btn a{
+    text-decoration: none;
+}
